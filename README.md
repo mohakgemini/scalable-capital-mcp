@@ -24,7 +24,7 @@ You only need to do four things, once.
    Allowlisting". Wait for their confirmation.
 3. **Log in.** In a terminal run `sc login` and complete the browser step
    yourself. (This must be done by you, not by Claude — it's the security step.)
-4. **Install this extension.** Download `scalable-broker.mcpb`, then in Claude
+4. **Install this extension.** [Download `scalable-broker.mcpb`](https://github.com/mohakgemini/scalable-broker-mcp/releases/latest), then in Claude
    Desktop go to **Settings → Extensions → Install Extension**, pick the file,
    and click Install. No terminal or config editing needed.
 

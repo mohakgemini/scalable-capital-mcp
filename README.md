@@ -1,4 +1,4 @@
-# Scalable Broker MCP (read-only)
+# Scalable Capital MCP (read-only)
 
 Read your Scalable Capital portfolio from inside Claude. This is a small,
 **read-only** MCP server that wraps the official
@@ -24,7 +24,7 @@ You only need to do four things, once.
    Allowlisting". Wait for their confirmation.
 3. **Log in.** In a terminal run `sc login` and complete the browser step
    yourself. (This must be done by you, not by Claude — it's the security step.)
-4. **Install this extension.** [Download `scalable-broker.mcpb`](https://github.com/mohakgemini/scalable-broker-mcp/releases/latest), then in Claude
+4. **Install this extension.** [Download `scalable-capital-mcp.mcpb`](https://github.com/mohakgemini/scalable-capital-mcp/releases/latest), then in Claude
    Desktop go to **Settings → Extensions → Install Extension**, pick the file,
    and click Install. No terminal or config editing needed.
 
@@ -58,9 +58,9 @@ cp server/index.js server/sc.js bundle/server/
 ( cd bundle && npm install --omit=dev )
 
 # pack — either with the official packer:
-npm i -g @anthropic-ai/mcpb && ( cd bundle && mcpb pack . ../scalable-broker.mcpb )
+npm i -g @anthropic-ai/mcpb && ( cd bundle && mcpb pack . ../scalable-capital-mcp.mcpb )
 # ...or, since .mcpb is just a zip with manifest.json at the root:
-( cd bundle && zip -rq ../scalable-broker.mcpb . )
+( cd bundle && zip -rq ../scalable-capital-mcp.mcpb . )
 ```
 
 `mcpb validate manifest.json` checks the manifest against the current schema —

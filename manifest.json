@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.2",
-  "name": "scalable-broker-mcp",
-  "display_name": "Scalable Broker (read-only)",
+  "name": "scalable-capital-mcp",
+  "display_name": "Scalable Capital (read-only)",
   "version": "0.1.0",
   "description": "Read your Scalable Capital portfolio in Claude. Unofficial; not affiliated with or endorsed by Scalable Capital.",
   "author": { "name": "Your Name" },

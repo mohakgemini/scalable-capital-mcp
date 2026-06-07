@@ -4,7 +4,7 @@ import { z } from "zod";
 import { sc, json, ScError } from "./sc.js";
 
 const server = new McpServer(
-  { name: "scalable-broker-mcp", version: "0.1.0" },
+  { name: "scalable-capital-mcp", version: "0.1.0" },
   {
     instructions:
       "Read-only access to a Scalable Capital broker account via the official `sc` CLI. " +

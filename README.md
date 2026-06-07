@@ -14,6 +14,8 @@ savings plans, and price alerts, and look up instruments and news.
 
 ## For non-technical users (Claude Desktop)
 
+**[Video walkthrough: how to set it up (Claude Desktop)](https://youtu.be/1MIw92xCse0)**
+
 You only need to do four things, once.
 
 1. **Install the Scalable CLI.** Follow the instructions at
